@@ -35,11 +35,12 @@
 Check out the Sample app, to see how its implemented.
 
 ### Gradle
-* This library is available on JCenter. First, Make sure to add the following in your project level `build.gradle` file
+* This library is available on SciJava & JCenter . First, Make sure to add the following in your project level `build.gradle` file
 ```
 repositories {
     google()
     jcenter()
+    maven {url "https://maven.scijava.org/content/repositories/public/"}
  }
 ```
 * To use it, add the following to `build.gradle` for the module
